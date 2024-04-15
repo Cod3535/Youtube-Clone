@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0f0f0f;
+    
+    
+}
+.logo{
+    font-family: 'YouTube Sans', sans-serif;
+}
+.yazi{
+    font-style:oblique;
+    padding-bottom: 10px;
+    font-size: 10px !important;
+    color: rgb(255, 255, 255);
+}
+.prem{
+    font-size: 22px;
+}
+.arama{
+    width: 550px;
+    height: 40px;
+    border: 1px solid #37373c ;
+    border-right: none;
+    border-radius: 40px 0 0 40px;
+}
+.aram{
+    background-color: #37373c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 40px;
+    border: 1px solid #37373c;
+    border-left: none;
+    border-radius: 0 40px 40px 0;
+}
+.micarka{
+    background-color: #37373c;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #37373c;
+    border-radius: 25px;
+    margin-left: 10px;
+    
+}
+.navarka{
+    background-color: #0f0f0f;
+}
+.yaz{
+    color: gray;
+}
+.yantaraf{
+    width: 290px;   
+    background-color: #0f0f0f ;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: "Roboto","Arial",sans-serif;
+    white-space: nowrap;
+}
+.yantaraf:hover {
+  overflow-y: auto;
+  }
+  .yantaraf a{
+    font-size: 14px;
+  }
+.imgg{
+    width: 20px ;
+    height: 20px ;
+}
+.cizgi{
+    margin-top: 20px;
+    width: 100%;
+    border: 1px outset gray;
+}
+img{
+    border-radius: 25px;
+}
+.yantaraf::-webkit-scrollbar {
+    width: 6px; 
+  }
+  
+  .yantaraf::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.5); 
+    border-radius: 6px;
+    margin-left: 15px;
+  }
+  
+  .yantaraf::-webkit-scrollbar-track {
+    background-color: transparent; 
+  }
+  .fa-solid{
+    display: flex !important;
+    width: 20px;
+    height: 20px;
+  }
+  .fa-regular{
+    display: flex !important;
+    width: 20px;
+    height: 20px;
+  }
+  .microfone{
+    display: flex;
+    width: auto;
+    height: auto;
+  }
+  ul li a {
+
+    height: 32px;
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    background-color: #272727;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.3s;
+    
+  }
+  ul li a:hover{
+    background-color: #4b4b4b;
+  }
+  .cart{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-top: 30px;
+  }
+  .cartbody img{
+    width: 300px;
+    height: 180px;
+  }
+  .cartbody h6{
+    color: white;
+  }
+  .sagakaydir{
+    padding-left: 60px;
+    
+  }
+  .cartbody .alt{
+    color: gray;
+    font-size: 14px;
+  }
+  .cartbody h6{
+  max-width: 75%;
+  
+ }
+
+  @media screen and (max-width:1600px) {
+    .cart{
+      grid-template-columns: repeat(4,1fr);
+    }
+    .yantaraf{
+      min-width: 200px;
+    }
+
+  }
+  @media screen and (max-width:1470px) {
+    .cart{
+      grid-template-columns: repeat(3,1fr);
+    }
+    .yantaraf{
+      min-width: 200px;
+    }
+
+  }
+  @media screen and (max-width:1167px) {
+    .cart{
+      grid-template-columns: repeat(2,1fr);
+    }
+    .yantaraf{
+      min-width: 200px;
+    }
+
+  }
+  @media screen and (max-width:400px) {
+    .cart{
+      grid-template-columns: repeat(1,1fr);
+    }
+    .yantaraf{
+      display: none;
+      
+    }
+    .cartbody .kucukresim{
+      width: 3% !important;
+      height: 3% !important;
+    }
+     .sagakaydir{
+      padding-left: 40px;
+     }
+  }
+  
